@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+.bg-home{
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.585), rgba(44, 44, 44, 0.702)), 
+  url("https://i.pinimg.com/564x/65/b7/d5/65b7d5e3ead835f255473d8ed085c49f.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header.sticky{
+  transition: .3s;
+  @apply backdrop-blur-sm bg-gray-700/70 fixed
+}
+
+.bg-footer{
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.585), rgba(44, 44, 44, 0.702)), 
+  url("https://i.pinimg.com/564x/83/90/71/839071c68c6d3c409f3174c0a9ac2f92.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
